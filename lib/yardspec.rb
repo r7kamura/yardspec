@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "yardspec/version"
+require_relative 'yardspec/version'
 
 module Yardspec
   class Error < StandardError; end
