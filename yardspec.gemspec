@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['Ryo Nakamura']
   spec.email = ['r7kamura@gmail.com']
 
-  spec.summary = 'Run YARD examples as RSepc examples.'
+  spec.summary = 'Use YARD examples as RSepc examples.'
   spec.homepage = 'https://github.com/r7kamura/yardspec'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'

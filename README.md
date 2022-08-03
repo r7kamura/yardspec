@@ -1,6 +1,6 @@
 # Yardspec
 
-Run YARD examples as RSepc examples.
+Use YARD examples as RSepc examples.
 
 ## Installation
 
