@@ -23,8 +23,6 @@ module Foo
     end
   end
 end
-
-Yardspec.define_examples(__FILE__)
 ```
 
 The code above is interpreted as follows:
