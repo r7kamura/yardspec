@@ -18,7 +18,7 @@ module Yardspec
 
     def define_rspec_examples
       code_objects.each do |code_object|
-        ::RSpec.describe(code_object.path) do
+        ::RSpec.describe(code_object.path, type: :yardspec) do
           code_object.tags('example').each do |tag|
             it(tag.name) do
               instance_eval(
