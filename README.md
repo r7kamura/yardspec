@@ -8,8 +8,6 @@ Use YARD examples as RSepc examples.
 # frozen_string_literal: true
 
 module Foo
-  # @example Returns "baz".
-  #   expect(Foo::Bar.new.baz).to eq('baz')
   class Bar
     # @example Returns "baz".
     #   expect(Foo::Bar.new.baz).to eq('baz')
@@ -30,15 +28,12 @@ The code above is interpreted as follows:
 ```
 $ bundle exec rspec
 
-Foo::Bar
-  Returns "baz".
-
 Foo::Bar#baz
   Returns "baz".
   Returns "bazbaz" for count 2.
 
 Finished in 0.00129 seconds (files took 0.087 seconds to load)
-3 examples, 0 failures
+2 examples, 0 failures
 ```
 
 ## Installation
