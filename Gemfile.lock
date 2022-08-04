@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    yardspec (0.1.0)
+    yardspec (0.2.0)
       rspec
       yard
 
