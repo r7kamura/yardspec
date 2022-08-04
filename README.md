@@ -9,10 +9,10 @@ Use YARD examples as RSepc examples.
 
 module Foo
   class Bar
-    # @example Returns "baz".
+    # @example returns "baz"
     #   expect(Foo::Bar.new.baz).to eq('baz')
     #
-    # @example Returns "bazbaz" for count 2.
+    # @example returns "bazbaz" for count 2
     #   expect(Foo::Bar.new.baz(count: 2)).to eq('bazbaz')
     #
     # @return [String]
@@ -29,8 +29,8 @@ The code above is interpreted as follows:
 $ bundle exec rspec
 
 Foo::Bar#baz
-  Returns "baz".
-  Returns "bazbaz" for count 2.
+  returns "baz"
+  returns "bazbaz" for count 2
 
 Finished in 0.00129 seconds (files took 0.087 seconds to load)
 2 examples, 0 failures
