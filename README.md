@@ -5,8 +5,6 @@
 Use YARD examples as RSepc examples.
 
 ```ruby
-# frozen_string_literal: true
-
 module Foo
   class Bar
     # @example returns "baz"
