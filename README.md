@@ -2,7 +2,7 @@
 
 [![test](https://github.com/r7kamura/yardspec/actions/workflows/test.yml/badge.svg)](https://github.com/r7kamura/yardspec/actions/workflows/test.yml)
 
-Use YARD examples as RSepc examples.
+Run YARD as RSpec.
 
 ```ruby
 module Foo
