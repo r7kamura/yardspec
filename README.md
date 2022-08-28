@@ -50,13 +50,25 @@ gem install yardspec
 
 ## Usage
 
-Require `"yardspec"` and then call `Yardspec.define_examples` as follows:
+Require `"yardspec"` and call `Yardspec.define_examples` as follows:
 
 ```ruby
-# spec/spec_helper.rb
+# spec/yard_spec.rb
 require 'yardspec'
 
 Yardspec.define_examples
+```
+
+then run entire test suite:
+
+```
+bundle exec rspec
+```
+
+or run this test file:
+
+```
+bundle exec rspec spec/yard_spec.rb
 ```
 
 ### Path glob
